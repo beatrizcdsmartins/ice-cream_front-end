@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const apiCodeIce = axios.create({
-  baseURL: 'http://localhost:3001'
+  baseURL: 'https://apiice-cream-production.up.railway.app/'
 })
 
 apiCodeIce.interceptors.request.use(async config => {
